@@ -12,24 +12,6 @@ A Node.js backend API for managing users, doctors, patients, and doctor-patient 
 - PostgreSQL database with Sequelize ORM
 - Sample data seeding
 
-## Project Structure
-
-```
-.
-├── config/           # Database config (JS & JSON)
-├── migrations/       # Sequelize migration files
-├── seeders/          # Sample data seeder
-├── src/
-│   ├── app.js        # Express app setup
-│   ├── controllers/  # Route controllers
-│   ├── middlewares/  # Auth middleware
-│   ├── models/       # Sequelize models
-│   └── routes/       # Express routes
-├── index.js          # App entry point
-├── package.json
-└── .env              # Environment variables (not committed)
-```
-
 ## Setup
 
 1. **Clone the repo**
